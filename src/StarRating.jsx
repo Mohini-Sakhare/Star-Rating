@@ -23,7 +23,8 @@ export default function StarRating({noOfStars = 5})
          setHover(rating);
     }
         return (
-        <div className="starrating">
+            <div className="main">
+             <div className="starrating">
             {
                  [...Array(noOfStars)].map((_,index)=> {
                      index += 1
@@ -39,6 +40,7 @@ export default function StarRating({noOfStars = 5})
                  })
             }
            
+        </div>
         </div>
     );
 }

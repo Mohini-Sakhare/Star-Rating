@@ -1,3 +1,3 @@
 # React + Vite
 
-This is mini-project.
+This is react mini-project.
